@@ -19,6 +19,10 @@ Run:
 lsblk
 ```
 
+```bash
+sudo fdisk -l | grep "/dev/sdb"
+```
+
 Look for your external device (e.g. /dev/sdb). Make sure it's the correct device — don't guess!
 2. (Optional but recommended) Wipe the drive
 
