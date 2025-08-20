@@ -1,3 +1,12 @@
+IN CASE THE DRIVE IS RESERVED FOR WINDOWS :
+
+$ sudo pacman -Syu ntfs-3g
+
+$ sudo mount -t ntfs-3g /dev/sdb /mnt/mydrive
+
+
+
+
 🔐 Encrypt an External Drive on Linux (LUKS)
 
     ⚠️ All existing data will be erased. Back it up before proceeding!
